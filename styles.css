@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .button{
+    padding:20px;
+    margin:0 3px;
+    border:2px solid black;
+    border-radius:12px;
+    cursor:pointer;
+    width:66px;
+  }
+  
+  .row{
+    margin:8px 0;
+  }
+.text-center{
+    text-align: center;
+  }
+  
+  .container{
+  /*   background:red; */
+    display:flex;
+     flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0,12px;
+  }
+  
+  .row input{
+    margin:10px; 
+   padding:12px 28px;
+  border:3px solid black;
+    border-radius:13px;
+    font-size:20px;
+  }
