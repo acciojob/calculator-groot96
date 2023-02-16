@@ -21,16 +21,12 @@ Array.from(buttons).forEach((button) =>{
     }else if(e.target.innerHTML == 'Del'){
     string = string.slice(0,-1);
       document.querySelector('input').value=string;
-  }
-    
-    
-    else {
+  }else {
     console.log(e.target);
     string = string+e.target.innerHTML;
     document.querySelector('input').value=string;
        }
   })
 })
-
 
 
